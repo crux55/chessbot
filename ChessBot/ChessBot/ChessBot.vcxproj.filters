@@ -16,6 +16,9 @@
     <Filter Include="Header Files\Pieces">
       <UniqueIdentifier>{f3d8f903-0e5f-4404-b7f1-8058679d2c36}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Pieces">
+      <UniqueIdentifier>{a54bad6f-1fb6-4610-978a-159603d6f20c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Board.h">
@@ -27,6 +30,9 @@
     <ClInclude Include="Piece.h">
       <Filter>Header Files\Pieces</Filter>
     </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Board.cpp">
@@ -34,6 +40,12 @@
     </ClCompile>
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>Source Files\Pieces</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
